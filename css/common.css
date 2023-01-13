@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&family=Shadows+Into+Light+Two&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title-font: "Shadows Into Light Two";
+    --text-font: "Open Sans";
+    --text-size: 18px;
+}
+
+h1 {
+    font-family: var(--title-font);
+}
+
+h2 {
+    font-family: var(--title-font);
+}
+
+p {
+    font-size: var(--text-size);
+    font-family: var(--text-font);
+}
+
+li {
+    font-size: var(--text-size);
+    font-family: var(--text-font);
+}
+
+input {
+    font-size: var(--text-size);
+    font-family: var(--text-font);
+}
+
+button {
+    font-size: var(--text-size);
+    font-family: var(--text-font);
+    ;
+}
+
+video {
+    border-radius: 40px;
+}
+
+img {
+    width: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 40px;
+}
