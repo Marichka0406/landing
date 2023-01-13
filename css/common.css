@@ -9,41 +9,27 @@
 
 :root {
     --title-font: "Shadows Into Light Two";
-    --text-font: "Open Sans";
-    --text-size: 18px;
+    --in-center:500px;
+    font-family: "Open Sans";
+    font-size: 18px;
 }
 
 h1 {
     font-family: var(--title-font);
+    font-size:40px;
+    position: relative;
+    left:var(--in-center);
 }
 
 h2 {
     font-family: var(--title-font);
-}
-
-p {
-    font-size: var(--text-size);
-    font-family: var(--text-font);
-}
-
-li {
-    font-size: var(--text-size);
-    font-family: var(--text-font);
-}
-
-input {
-    font-size: var(--text-size);
-    font-family: var(--text-font);
-}
-
-button {
-    font-size: var(--text-size);
-    font-family: var(--text-font);
-    ;
+    font-size:30px;
 }
 
 video {
-    border-radius: 40px;
+    border-radius: 40px; 
+    position: relative;
+    left:var(--in-center);  
 }
 
 img {
