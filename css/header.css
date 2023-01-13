@@ -1,0 +1,15 @@
+.menu {
+    background-color: var(--border-color);
+}
+
+.menu__item {
+    color: black;
+}
+
+.header__text {
+    margin: 15px;
+}
+
+.header__info {
+    background-color: cornsilk;
+}

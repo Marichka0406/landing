@@ -1,15 +1,8 @@
-.care-method{
-    border:10px solid burlywood;
-    background-color:lightgoldenrodyellow;
-    padding:30px;
-    margin:15px;
-    border-radius:40px;
+.care-method {
+    border: 10px solid var(--border-color);
+    background-color: var(--background-color);
+    padding: 30px;
+    margin: 15px;
+    border-radius: 40px;
 }
-.menu{
-background-color: lightgoldenrodyellow;
-border-radius:40px;
-}
-.form__title{
-    position: relative;
-    left:var(--in-center);   
-}
+

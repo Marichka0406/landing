@@ -1,0 +1,31 @@
+.form {
+    background-color: cornsilk;
+}
+
+form {
+    margin: 10px 500px 10px 525px;
+    padding: 5px;
+    border: 10px solid var(--border-color);
+    background-color: var(--background-color);
+    border-radius: 40px;
+}
+
+.form__personal-data input {
+    font-size: 18px;
+    width: 450px;
+}
+
+.form__agreements {
+    font-size: 15px;
+}
+
+.form__submit {
+    position: relative;
+    left: 135px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    border-radius: 40px;
+    border: 8px solid var(--border-color);
+    padding: 10px 50px 10px 50px;
+    background-color: var(--background-color);
+}
