@@ -8,3 +8,8 @@
     margin:5px;
 }
 
+@media(min-width:500px) {
+    .care-method {
+    padding-left: 25px;
+    }
+}

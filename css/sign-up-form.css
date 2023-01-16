@@ -2,19 +2,21 @@
     background-color: cornsilk;
 }
 
-form {  
- 
+form {
+
     padding: 5px;
     border: 10px solid var(--border-color);
     background-color: var(--background-color);
     border-radius: 40px;
 }
-.form__title{
-text-align:center;
+
+.form__title {
+    text-align: center;
 }
-.form__personal-data  {
-    display:grid;
-    justify-items:center;
+
+.form__personal-data {
+    display: grid;
+    justify-items: center;
 }
 
 .form__agreements {
@@ -26,11 +28,16 @@ text-align:center;
     font-size: 18px;
     border-radius: 40px;
     border: 5px solid var(--border-color);
-    /*
     padding: 10px 50px 10px 50px;
-    */
     background-color: var(--background-color);
-    
-    justify-content:center;
+    justify-content: center;
 }
 
+@media(min-width:500px) {
+    .form {
+
+    }
+    .form__personal-data input {
+        font-size: 18px;
+    }
+}

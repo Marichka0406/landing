@@ -17,7 +17,7 @@
 h1 {
     font-family: var(--title-font);
     font-size: 35px;
-    text-align:center;
+    text-align: center;
 }
 
 h2 {
@@ -28,17 +28,35 @@ h2 {
 video {
     border-radius: 35px;
     border: 10px solid var(--border-color);
-    display:block;
-    width:95%;
-    margin-left:8px;
-   
+    display: block;
+    width: 75%;
+    margin-left: 8px;
+
 }
 
 img {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     border-radius: 40px;
-    display:block;
-    width:95%;
+    display: block;
+    width: 75%;
 
 }
 
+@media(min-width:500px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    p{
+        font-size:20px;
+    }
+    li{
+        font-size:20px;
+    }
+    img{
+        width: 50%;   
+    }
+}
