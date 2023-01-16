@@ -17,12 +17,13 @@
 
 h1 {
     font-family: var(--title-font);
-    font-size: 40px;
+    font-size: 35px;
+    text-align:center;
 }
 
 h2 {
     font-family: var(--title-font);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 video {
