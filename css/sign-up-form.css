@@ -1,5 +1,5 @@
 .form {
-    background-color: cornsilk;
+    background-color:var(--sign-up-form-background-color);
     display:flex;
     justify-content:center;
     

@@ -4,7 +4,7 @@
 }
 
 .menu__item {
-    color: black;
+    color: var(--menu-item-color);
     text-decoration:none;
 }
 
@@ -12,8 +12,10 @@
     margin: 15px;
 }
 
-.header__info {
-    background-color: cornsilk;
+.header__info{
+    background-image: url(../img/paws.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/paws.jpg);
+    color:var(--header-text-color);
 }
 
 @media(min-width:500px){

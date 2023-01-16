@@ -11,6 +11,9 @@
     --title-font: "Shadows Into Light Two";
     --background-color: lightgoldenrodyellow;
     --border-color: burlywood;
+    --header-text-color:white;
+    --menu-item-color:black;
+    --sign-up-form-background-color: cornsilk;
     font-family: "Open Sans";
 }
 
