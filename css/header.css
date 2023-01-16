@@ -1,9 +1,11 @@
 .menu {
     background-color: var(--border-color);
+    padding-left:10px;
 }
 
 .menu__item {
     color: black;
+    text-decoration:none;
 }
 
 .header__text {
@@ -12,4 +14,13 @@
 
 .header__info {
     background-color: cornsilk;
+}
+
+@media(min-width:500px){
+    .menu {
+       display:flex;
+       align-items:center;
+       justify-content:space-around;
+       flex:1;
+    }  
 }

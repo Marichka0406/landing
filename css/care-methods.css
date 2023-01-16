@@ -1,8 +1,10 @@
 .care-method {
-    border: 10px solid var(--border-color);
+    border: 8px solid var(--border-color);
     background-color: var(--background-color);
     border-radius: 40px;
-    padding-left:26px;
-    margin:8px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:5px;
 }
 
