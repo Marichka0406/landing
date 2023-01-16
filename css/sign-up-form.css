@@ -1,9 +1,13 @@
 .form {
     background-color: cornsilk;
+    display:flex;
+    justify-content:center;
+    
 }
 
 form {
-
+    margin-bottom:5px;
+    margin-top:5px;
     padding: 5px;
     border: 10px solid var(--border-color);
     background-color: var(--background-color);
@@ -18,6 +22,9 @@ form {
     display: grid;
     justify-items: center;
 }
+.form__personal-data input{
+width:200px;
+}
 
 .form__agreements {
     font-size: 15px;
@@ -28,16 +35,17 @@ form {
     font-size: 18px;
     border-radius: 40px;
     border: 5px solid var(--border-color);
-    padding: 10px 50px 10px 50px;
+    padding: 10px 30px 10px 30px;
     background-color: var(--background-color);
-    justify-content: center;
+    text-align:center;
+    display:flex;
+    margin:auto;
 }
 
 @media(min-width:500px) {
-    .form {
-
-    }
+   
     .form__personal-data input {
         font-size: 18px;
     }
+    
 }
